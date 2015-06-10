@@ -1,0 +1,68 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     Blackwell_Historical_Sales_Data-weka.filters.unsupervised.attribute.ReplaceMissingValues-unset-class-temporarily-weka.filters.unsupervised.attribute.NumericToBinary
+Instances:    157818
+Attributes:   27
+              Acer Aspire AS5750Z-4835_binarized
+              ASUS Zenbook Prime UX31A-DB51_binarized
+              Sony VAIO T Series SVT13112FXS_binarized
+              Sony L Series VPCL232FX/B_binarized
+              Alienware AAR4-10000BK_binarized
+              HP LaserJet Pro CP1025nw Color Printer_binarized
+              Brother MFCJ6910DW Business Inkjet All-in-One Printer_binarized
+              Brother Printer MFC7360N_binarized
+              SquareTrade 3-Year Computer Accidental Protection Warranty_binarized
+              SquareTrade 2-Year Extended Warranty_binarized
+              VIVAMART ?? Premium Compatible High Yield Toner_binarized
+              Brother Printer LC79BK_binarized
+              Brother Printer LC793PKS 3 Pack_binarized
+              Microsoft Office Home & Student 2010_binarized
+              Logitech C260_binarized
+              SteelSeries Diablo III Mouse_binarized
+              SteelSeries QcK Diablo III Mouse Pad_binarized
+              Logitech Desktop MK120_binarized
+              Logitech S120 2.0_binarized
+              Belkin Y Audio Cable_binarized
+              Dell UltraSharp U2711 27-inch_binarized
+              Viewsonic VX2450WM-LED 24-Inch_binarized
+              LG EW224T 22-Inch_binarized
+              6ft DisplayPort Male to Mini DisplayPort Male 32AWG Cable_binarized
+              Case Logic MLA-116_binarized
+              Ibex 17 Inch Notebook Backpack_binarized
+              Number of products purchased
+Evaluation mode:10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+average merit      average rank  attribute
+146.682 +- 6.011      1   +- 0       14 Microsoft Office Home & Student 2010_binarized
+105.755 +- 2.588      2   +- 0       27 Number of products purchased
+89.092 +- 6.547      3.4 +- 0.49    18 Logitech Desktop MK120_binarized
+86.84  +- 4.786      3.6 +- 0.49    24 6ft DisplayPort Male to Mini DisplayPort Male 32AWG Cable_binarized
+44.004 +- 4.084      5.4 +- 0.49     5 Alienware AAR4-10000BK_binarized
+44.119 +- 3.54       5.9 +- 0.7     21 Dell UltraSharp U2711 27-inch_binarized
+38.092 +- 5.686      7.5 +- 1.43    22 Viewsonic VX2450WM-LED 24-Inch_binarized
+34.779 +- 2.327      8.3 +- 0.9     19 Logitech S120 2.0_binarized
+33.085 +- 2.995      8.8 +- 0.98    15 Logitech C260_binarized
+32.899 +- 2.558      9.4 +- 1.28     8 Brother Printer MFC7360N_binarized
+27.691 +- 2.731     11.3 +- 1.19    23 LG EW224T 22-Inch_binarized
+25.674 +- 2.604     12   +- 0.89     1 Acer Aspire AS5750Z-4835_binarized
+23.918 +- 2.968     12.6 +- 0.66    20 Belkin Y Audio Cable_binarized
+18.883 +- 2.392     14.9 +- 0.94     9 SquareTrade 3-Year Computer Accidental Protection Warranty_binarized
+17.82  +- 1.707     15.4 +- 1.36     6 HP LaserJet Pro CP1025nw Color Printer_binarized
+17.3   +- 2.162     16   +- 0.89    16 SteelSeries Diablo III Mouse_binarized
+16.462 +- 2.764     16.6 +- 2.33     4 Sony L Series VPCL232FX/B_binarized
+14.087 +- 1.297     18.1 +- 0.54    25 Case Logic MLA-116_binarized
+12.808 +- 2.776     18.9 +- 1.58     7 Brother MFCJ6910DW Business Inkjet All-in-One Printer_binarized
+12.483 +- 1.796     19   +- 1.26     3 Sony VAIO T Series SVT13112FXS_binarized
+ 8.252 +- 1.078     21.2 +- 0.4     17 SteelSeries QcK Diablo III Mouse Pad_binarized
+ 6.678 +- 1.774     22.4 +- 1.2     11 VIVAMART ?? Premium Compatible High Yield Toner_binarized
+ 4.512 +- 1.134     23.4 +- 1.11    26 Ibex 17 Inch Notebook Backpack_binarized
+ 4.366 +- 1.152     23.5 +- 0.92    13 Brother Printer LC793PKS 3 Pack_binarized
+ 3.053 +- 1.128     24.4 +- 0.92    10 SquareTrade 2-Year Extended Warranty_binarized
+ 0     +- 0         26   +- 0        2 ASUS Zenbook Prime UX31A-DB51_binarized
+

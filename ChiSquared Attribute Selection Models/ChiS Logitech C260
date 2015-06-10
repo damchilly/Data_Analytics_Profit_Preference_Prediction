@@ -1,0 +1,68 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.ChiSquaredAttributeEval 
+Search:weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     Blackwell_Historical_Sales_Data-weka.filters.unsupervised.attribute.ReplaceMissingValues-unset-class-temporarily-weka.filters.unsupervised.attribute.NumericToBinary
+Instances:    157818
+Attributes:   27
+              Acer Aspire AS5750Z-4835_binarized
+              ASUS Zenbook Prime UX31A-DB51_binarized
+              Sony VAIO T Series SVT13112FXS_binarized
+              Sony L Series VPCL232FX/B_binarized
+              Alienware AAR4-10000BK_binarized
+              HP LaserJet Pro CP1025nw Color Printer_binarized
+              Brother MFCJ6910DW Business Inkjet All-in-One Printer_binarized
+              Brother Printer MFC7360N_binarized
+              SquareTrade 3-Year Computer Accidental Protection Warranty_binarized
+              SquareTrade 2-Year Extended Warranty_binarized
+              VIVAMART ?? Premium Compatible High Yield Toner_binarized
+              Brother Printer LC79BK_binarized
+              Brother Printer LC793PKS 3 Pack_binarized
+              Microsoft Office Home & Student 2010_binarized
+              Logitech C260_binarized
+              SteelSeries Diablo III Mouse_binarized
+              SteelSeries QcK Diablo III Mouse Pad_binarized
+              Logitech Desktop MK120_binarized
+              Logitech S120 2.0_binarized
+              Belkin Y Audio Cable_binarized
+              Dell UltraSharp U2711 27-inch_binarized
+              Viewsonic VX2450WM-LED 24-Inch_binarized
+              LG EW224T 22-Inch_binarized
+              6ft DisplayPort Male to Mini DisplayPort Male 32AWG Cable_binarized
+              Case Logic MLA-116_binarized
+              Ibex 17 Inch Notebook Backpack_binarized
+              Number of products purchased
+Evaluation mode:10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation (stratified), seed: 1 ===
+
+average merit      average rank  attribute
+45791.051 +-183.194      1   +- 0        4 Sony L Series VPCL232FX/B_binarized
+10321.019 +-66.506      2   +- 0       27 Number of products purchased
+5498.51 +-57.101      3   +- 0        5 Alienware AAR4-10000BK_binarized
+3345.078 +-39.014      4   +- 0       14 Microsoft Office Home & Student 2010_binarized
+1611.502 +-44.981      5   +- 0        9 SquareTrade 3-Year Computer Accidental Protection Warranty_binarized
+698.101 +-22.848      6.2 +- 0.6     23 LG EW224T 22-Inch_binarized
+679.512 +-14.883      6.9 +- 0.3     19 Logitech S120 2.0_binarized
+666.211 +-11.021      7.9 +- 0.3     20 Belkin Y Audio Cable_binarized
+400.218 +-13.619      9   +- 0       18 Logitech Desktop MK120_binarized
+353.041 +-13.005     10   +- 0       16 SteelSeries Diablo III Mouse_binarized
+228.321 +- 7.615     11   +- 0        7 Brother MFCJ6910DW Business Inkjet All-in-One Printer_binarized
+182.52 +- 6.579     12   +- 0        6 HP LaserJet Pro CP1025nw Color Printer_binarized
+152.772 +- 5.977     13.6 +- 0.92     1 Acer Aspire AS5750Z-4835_binarized
+148.852 +- 5.639     14.1 +- 0.54     8 Brother Printer MFC7360N_binarized
+146.663 +- 7.05      14.8 +- 0.87    10 SquareTrade 2-Year Extended Warranty_binarized
+133.11 +- 9.359     15.6 +- 1.11    24 6ft DisplayPort Male to Mini DisplayPort Male 32AWG Cable_binarized
+120.835 +- 5.099     16.9 +- 0.3     22 Viewsonic VX2450WM-LED 24-Inch_binarized
+87.266 +- 8.425     18   +- 0       25 Case Logic MLA-116_binarized
+47.471 +- 4.272     19   +- 0        3 Sony VAIO T Series SVT13112FXS_binarized
+40.546 +- 3.889     20.3 +- 0.46    26 Ibex 17 Inch Notebook Backpack_binarized
+36.699 +- 4.108     21.1 +- 0.83    13 Brother Printer LC793PKS 3 Pack_binarized
+33.051 +- 2.319     21.7 +- 0.64    12 Brother Printer LC79BK_binarized
+27.762 +- 2.655     22.9 +- 0.3     11 VIVAMART ?? Premium Compatible High Yield Toner_binarized
+12.376 +- 2.295     24   +- 0       17 SteelSeries QcK Diablo III Mouse Pad_binarized
+ 1.734 +- 0.831     25   +- 0       21 Dell UltraSharp U2711 27-inch_binarized
+ 0     +- 0         26   +- 0        2 ASUS Zenbook Prime UX31A-DB51_binarized
+
